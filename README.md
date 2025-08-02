@@ -7,7 +7,7 @@
 ## Requirements
 
 - Amiga or Amiga-compatible computer
-- SAS/C 6.58
+- SAS/C 6.58 setup according to ToolKit standard
 - ctags for Amiga to generate Autodocs. This will be part of the standard ToolKit distribution
 - LibDescConverter for generating 
 - Autodoc for Amiga available in NDK3.2 as well as older developer CDs and NDKs
