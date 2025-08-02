@@ -1,7 +1,7 @@
 ##
 ##	GadTools layout toolkit
 ##
-##	Copyright © 1993-1999 by Olaf `Olsen' Barthel
+##	Copyright ï¿½ 1993-1999 by Olaf `Olsen' Barthel
 ##		Freely distributable.
 ##
 ##	:ts=8
@@ -36,8 +36,8 @@ OPTIMIZE =	optimize optschedule nooptinlocal opttime
 #OPTIMIZE =	optimize optschedule   optinlocal opttime
 GSTFILE =	gtlayout.gst
 
-CPU =	    68020
-#CPU =	    ANY
+#CPU =	    68020
+CPU =	    ANY
 
 DEBUG =		debug=line
 

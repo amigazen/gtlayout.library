@@ -156,10 +156,14 @@ gtlayout.library 47.2 (3.1.2012)
 	- Unfortunately the tags starting with (TAG_USER+99) of
 	gtlayout.library clash with the Intuition tags, which start
 	exactly at that value. This leads in 99.9% to a crash in
-	Intution, especially if the OS isn't that relaxed about DSIs
+	Intuition, especially if the OS isn't that relaxed about DSIs
 	like OS4. As there is no way to differentiate gtlayout tags
-	from Intution tags which have the very same value, the only
-	solution is to *not* hand over those tags to Intution, but
+	from Intiution tags which have the very same value, the only
+	solution is to *not* hand over those tags to Intuition, but
 	to dismiss them. This in turn may lead to suboptimal display
 	of some windows, but this is still better than crashing.
 
+gtlayout.library 47.2 (2.8.2025)
+
+	- No code changes, but rebuilt against NDK3.2 and updated smakefile
+	in preparation for further updates
