@@ -166,4 +166,5 @@ gtlayout.library 47.2 (3.1.2012)
 gtlayout.library 47.2 (2.8.2025)
 
 	- No code changes, but rebuilt against NDK3.2 and updated smakefile
-	in preparation for further updates
+	and sfd file in preparation for further updates. SFD file now works
+	with LibDescConverter to automatically generate protos
